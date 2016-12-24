@@ -1,0 +1,16 @@
+PODS:
+  - TZConfettiIntro (0.1.0)
+
+DEPENDENCIES:
+  - TZConfettiIntro (from `../`)
+
+EXTERNAL SOURCES:
+  TZConfettiIntro:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TZConfettiIntro: 0e2f4b616b361b30b1dec0e1958faca934a687b5
+
+PODFILE CHECKSUM: 56218b11b0293935e971f768972a42c8557a59bf
+
+COCOAPODS: 1.1.1

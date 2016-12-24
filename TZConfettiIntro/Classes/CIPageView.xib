@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16C60b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CIPageView" customModule="Confeti_Intro" customModuleProvider="target">
+            <connections>
+                <outlet property="bodyLabel" destination="uZl-JJ-M0M" id="TeQ-kI-rjp"/>
+                <outlet property="confitiView" destination="fjV-tq-QyJ" id="9ah-gf-Zwa"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="zI3-Uy-FEH"/>
+                <outlet property="headingLabel" destination="Qce-jm-b7N" id="IzL-1Q-Fze"/>
+                <outlet property="imageView" destination="vxD-A4-gAa" id="FSK-4r-DcJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vxD-A4-gAa">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZl-JJ-M0M">
+                    <rect key="frame" x="147" y="324.5" width="81" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qce-jm-b7N">
+                    <rect key="frame" x="159.5" y="272" width="57.5" height="27.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjV-tq-QyJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fjV-tq-QyJ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="2gL-01-9qy"/>
+                <constraint firstItem="fjV-tq-QyJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ABP-jl-bdP"/>
+                <constraint firstItem="fjV-tq-QyJ" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="MxK-n5-isI"/>
+                <constraint firstItem="fjV-tq-QyJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NbF-iU-MSc"/>
+                <constraint firstAttribute="bottom" secondItem="vxD-A4-gAa" secondAttribute="bottom" id="YBT-Km-ddd"/>
+                <constraint firstItem="uZl-JJ-M0M" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="YmQ-4W-FIA"/>
+                <constraint firstItem="uZl-JJ-M0M" firstAttribute="top" secondItem="Qce-jm-b7N" secondAttribute="bottom" constant="25" id="b8z-Dm-H5N"/>
+                <constraint firstItem="uZl-JJ-M0M" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dBZ-QG-l8U"/>
+                <constraint firstItem="vxD-A4-gAa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gbw-mV-mOE"/>
+                <constraint firstItem="vxD-A4-gAa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hcY-4q-mh6"/>
+                <constraint firstAttribute="trailing" secondItem="vxD-A4-gAa" secondAttribute="trailing" id="m6U-kL-aZx"/>
+                <constraint firstItem="Qce-jm-b7N" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mha-OK-kFB"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
