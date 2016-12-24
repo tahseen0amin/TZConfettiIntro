@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TZConfettiIntro_Example' do
+  pod 'TZConfettiIntro', :path => '../'
+
+  target 'TZConfettiIntro_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
