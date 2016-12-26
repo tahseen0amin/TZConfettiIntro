@@ -30,10 +30,10 @@ class NewFeatureIntroViewController: TZConfettiIntroViewController {
         
         super.viewDidLoad()
         
-        self.scrollView.isScrollEnabled = false
-        self.nextButton.backgroundColor = UIColor.blue
-        self.nextButton.tintColor = UIColor.white
-        self.pageControl.isHidden = true
+        self.scrollView.scrollEnabled = false
+        self.nextButton.backgroundColor = UIColor.blueColor()
+        self.nextButton.tintColor = UIColor.whiteColor()
+        self.pageControl.hidden = true
     }
 
 }

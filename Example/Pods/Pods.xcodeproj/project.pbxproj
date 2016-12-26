@@ -49,9 +49,9 @@
 
 /* Begin PBXFileReference section */
 		17F0B10987E6366795DA4EE308C0E92D /* TZConfettiIntroViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TZConfettiIntroViewController.swift; sourceTree = "<group>"; };
-		220A3A961B6D84438A37AA3614715B66 /* Pods-TZConfettiIntro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TZConfettiIntro_Tests.modulemap"; sourceTree = "<group>"; };
-		2503C4DAE03D85B0CC5762FE273C3981 /* TZConfettiIntro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TZConfettiIntro.framework; path = TZConfettiIntro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2803CB4FF0A0B9F117857F9C3A09E518 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; path = triangle.png; sourceTree = "<group>"; };
+		220A3A961B6D84438A37AA3614715B66 /* Pods-TZConfettiIntro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TZConfettiIntro_Tests.modulemap"; sourceTree = "<group>"; };
+		2503C4DAE03D85B0CC5762FE273C3981 /* TZConfettiIntro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TZConfettiIntro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2803CB4FF0A0B9F117857F9C3A09E518 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 		2C74F7F7F5B5D9D4159E007567832467 /* Pods-TZConfettiIntro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZConfettiIntro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		332A7CE17A62C97DCCBCF30443758CD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BFA888ACE1572DFFDEC35B9B143D7D4 /* Pods-TZConfettiIntro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZConfettiIntro_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -69,28 +69,28 @@
 		7DAEB943EF3DF435103D69760F4AF679 /* TZConfettiIntro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZConfettiIntro-prefix.pch"; sourceTree = "<group>"; };
 		824698853C49D1A8114F1A4B0D48BD01 /* TZConfettiIntroViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TZConfettiIntroViewController.xib; sourceTree = "<group>"; };
 		8DFDD341CF0E5A2B92B013BA3C502845 /* Pods-TZConfettiIntro_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZConfettiIntro_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A42879DDF31AA61E4722EF210A33E3D6 /* TZConfettiIntro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZConfettiIntro.xcconfig; sourceTree = "<group>"; };
 		A88A33703D2ECB78003A754A6E800802 /* Pods-TZConfettiIntro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZConfettiIntro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C2E6469BB865C70348456D5808B79951 /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; path = confetti.png; sourceTree = "<group>"; };
+		C2E6469BB865C70348456D5808B79951 /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
 		C3087525ED5C3D302150F2864E3B588F /* Pods-TZConfettiIntro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZConfettiIntro_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C51ED18454922DFCB8CA174E513C7F7A /* Pods-TZConfettiIntro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZConfettiIntro_Example-dummy.m"; sourceTree = "<group>"; };
-		C829855BE522274F7A0C0606D8B30BEE /* TZConfettiIntro.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TZConfettiIntro.bundle; path = TZConfettiIntro.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C829855BE522274F7A0C0606D8B30BEE /* TZConfettiIntro.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZConfettiIntro.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8503E85526DA6222D5F3ED1EC91C0BC /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
-		C8E08AAF9A885C8EB9A796852801250C /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; path = diamond.png; sourceTree = "<group>"; };
+		C8E08AAF9A885C8EB9A796852801250C /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
 		CB382E09DD205AE537EBA0456D509D50 /* TZConfettiIntro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZConfettiIntro-umbrella.h"; sourceTree = "<group>"; };
 		D02BE046967D43A8E761519C6B562924 /* CIPageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CIPageView.xib; sourceTree = "<group>"; };
-		D5E09B6A20FBA778049DA6A1AE1ABC54 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; path = star.png; sourceTree = "<group>"; };
-		D949632628326A2EE8F2D00D0A13731A /* Pods_TZConfettiIntro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZConfettiIntro_Tests.framework; path = "Pods-TZConfettiIntro_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBC9B8EEADADFA4DD764B751518B625D /* Pods_TZConfettiIntro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZConfettiIntro_Example.framework; path = "Pods-TZConfettiIntro_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E09B6A20FBA778049DA6A1AE1ABC54 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		D949632628326A2EE8F2D00D0A13731A /* Pods_TZConfettiIntro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZConfettiIntro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC9B8EEADADFA4DD764B751518B625D /* Pods_TZConfettiIntro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZConfettiIntro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9A7D7BDDAE4C794DCC1ACAD3F9611B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		E34F1872A85D49074D55C37019AE1303 /* CIPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CIPageView.swift; sourceTree = "<group>"; };
 		EACB03530B4189CD7A10D67BF31C3253 /* Pods-TZConfettiIntro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZConfettiIntro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		ED116F5DA06EBC9248721812006B7B5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDF1EBF8510F3CFC9F49779FF92E12DF /* Pods-TZConfettiIntro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TZConfettiIntro_Example.modulemap"; sourceTree = "<group>"; };
-		F10E44FBD92B22B23BA8950B2AF77256 /* TZConfettiIntro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TZConfettiIntro.modulemap; sourceTree = "<group>"; };
+		EDF1EBF8510F3CFC9F49779FF92E12DF /* Pods-TZConfettiIntro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TZConfettiIntro_Example.modulemap"; sourceTree = "<group>"; };
+		F10E44FBD92B22B23BA8950B2AF77256 /* TZConfettiIntro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TZConfettiIntro.modulemap; sourceTree = "<group>"; };
 		FDDD6989487D2372211C8DCF8F383A91 /* Pods-TZConfettiIntro_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZConfettiIntro_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +149,6 @@
 				2803CB4FF0A0B9F117857F9C3A09E518 /* triangle.png */,
 				824698853C49D1A8114F1A4B0D48BD01 /* TZConfettiIntroViewController.xib */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -184,7 +183,6 @@
 			children = (
 				3BEF3C5EFFBD07846D7CFD41B8902A86 /* Assets */,
 			);
-			name = TZConfettiIntro;
 			path = TZConfettiIntro;
 			sourceTree = "<group>";
 		};
@@ -224,7 +222,6 @@
 				C8503E85526DA6222D5F3ED1EC91C0BC /* SAConfettiView.swift */,
 				17F0B10987E6366795DA4EE308C0E92D /* TZConfettiIntroViewController.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -268,7 +265,6 @@
 			children = (
 				BB274AAD061D2CEDBA6EA0C6AFE62EB3 /* Classes */,
 			);
-			name = TZConfettiIntro;
 			path = TZConfettiIntro;
 			sourceTree = "<group>";
 		};
@@ -410,6 +406,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					082B9B5C7F83DBED27076A199E4947FF = {
+						LastSwiftMigration = 0810;
+					};
+					946FCBF74146FF4E770F4BB4AD8A3AA6 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -537,6 +541,7 @@
 				PRODUCT_NAME = Pods_TZConfettiIntro_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -620,7 +625,7 @@
 				PRODUCT_NAME = TZConfettiIntro;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -789,7 +794,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -826,6 +831,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

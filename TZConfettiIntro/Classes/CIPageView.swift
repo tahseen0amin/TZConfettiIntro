@@ -8,17 +8,17 @@
 
 import UIKit
 
-open class CIPageView: UIView {
+public class CIPageView: UIView {
     
-    @IBOutlet open var contentView : UIView?
-    @IBOutlet open weak var imageView: UIImageView?
-    @IBOutlet open weak var headingLabel: UILabel?
-    @IBOutlet open weak var bodyLabel: UILabel?
-    @IBOutlet open var confitiView : UIView?
+    @IBOutlet public var contentView : UIView?
+    @IBOutlet public weak var imageView: UIImageView?
+    @IBOutlet public weak var headingLabel: UILabel?
+    @IBOutlet public weak var bodyLabel: UILabel?
+    @IBOutlet public var confitiView : UIView?
     
-    open var pageNumber:Int = 0
-    open var showNextButton = false
-    open var delayBeforeShowing : TimeInterval = 0.0
+    public var pageNumber:Int = 0
+    public var showNextButton = false
+    public var delayBeforeShowing : NSTimeInterval = 0.0
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -33,9 +33,9 @@ open class CIPageView: UIView {
     public convenience init(customNib: UINib?) {
         self.init()
         if customNib != nil {
-            let view = customNib!.instantiate(withOwner: self, options: nil)[0] as! UIView
+            let view = customNib?.instantiateWithOwner(self, options: nil)[0] as! UIView
             contentView = view
-            self.addSubViewWithConstraint(subview: contentView!, inset: .zero)
+            self.addSubViewWithConstraint(contentView!, inset: UIEdgeInsetsZero)
         } else {
             self.commonInit()
         }
@@ -43,15 +43,16 @@ open class CIPageView: UIView {
     }
     
     private func commonInit() {
-        let path = Bundle(for: CIPageView.self).path(forResource: "TZConfettiIntro", ofType: "bundle")
-        let bundle = Bundle(path: path!)
+        let path = NSBundle.init(forClass: CIPageView.self).pathForResource("TZConfettiIntro", ofType: "bundle")
+        let bundle = NSBundle(path: path!)
+        
         let view = bundle?.loadNibNamed("CIPageView", owner: self, options: nil)![0] as! UIView
         contentView = view
-        self.addSubViewWithConstraint(subview: contentView!, inset: .zero)
+        self.addSubViewWithConstraint(contentView!, inset: UIEdgeInsetsZero)
     }
     
     /// Do any time of changes here 
-    open func setupPage(){
+    public func setupPage(){
     }
     
 }
@@ -64,13 +65,13 @@ extension UIView {
         subview.frame = CGRect(x: inset.left, y: inset.top, width: view.frame.size.width-inset.right, height: view.frame.size.height-inset.bottom)
         view.clipsToBounds = true
         
-        view.addConstraint(NSLayoutConstraint.init(item: subview, attribute: .leading, relatedBy: .equal, toItem: view, attribute: .leading, multiplier: 1, constant: inset.left))
+        view.addConstraint(NSLayoutConstraint.init(item: subview, attribute: .Leading, relatedBy: .Equal, toItem: view, attribute: .Leading, multiplier: 1, constant: inset.left))
         
-        view.addConstraint(NSLayoutConstraint.init(item: subview, attribute: .trailing, relatedBy: .equal, toItem: view, attribute: .trailing, multiplier: 1, constant: inset.right))
+        view.addConstraint(NSLayoutConstraint.init(item: subview, attribute: .Trailing, relatedBy: .Equal, toItem: view, attribute: .Trailing, multiplier: 1, constant: inset.right))
         
-        view.addConstraint(NSLayoutConstraint.init(item: subview, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1, constant: inset.top))
+        view.addConstraint(NSLayoutConstraint.init(item: subview, attribute: .Top, relatedBy: .Equal, toItem: view, attribute: .Top, multiplier: 1, constant: inset.top))
         
-        view.addConstraint(NSLayoutConstraint.init(item: subview, attribute: .bottom, relatedBy: .equal, toItem: view, attribute: .bottom, multiplier: 1, constant: inset.bottom))
+        view.addConstraint(NSLayoutConstraint.init(item: subview, attribute: .Bottom, relatedBy: .Equal, toItem: view, attribute: .Bottom, multiplier: 1, constant: inset.bottom))
 }
 
 }

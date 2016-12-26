@@ -8,13 +8,13 @@
 
 import UIKit
 
-open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate {
+public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet public weak var scrollView: UIScrollView!
     @IBOutlet public weak var pageControl: UIPageControl!
     @IBOutlet public weak var nextButton: UIButton! {
         didSet {
-            self.nextButton.isHidden = true
-            self.nextButton.addTarget(self, action: #selector(self.nextClicked), for: .touchUpInside)
+            self.nextButton.hidden = true
+            self.nextButton.addTarget(self, action: #selector(self.nextClicked), forControlEvents: .TouchUpInside)
         }
     }
     public var pages : [CIPageView]! = []
@@ -26,39 +26,39 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
     }
     
     private var confettiView : SAConfettiView!
-    open var showConfetti = true
+    public var showConfetti = true
     
     public class func getControllerObject() -> TZConfettiIntroViewController {
         let nameNib = "TZConfettiIntroViewController"
-        let path = Bundle(for: TZConfettiIntroViewController.self).path(forResource: "TZConfettiIntro", ofType: "bundle")
-        let bundle = Bundle(path: path!)
+        let path = NSBundle.init(forClass: TZConfettiIntroViewController.self).pathForResource("TZConfettiIntro", ofType: "bundle")
+        let bundle = NSBundle(path: path!)
         let object = TZConfettiIntroViewController.init(nibName: nameNib, bundle: bundle)
         return object
     }
 
-    open override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         self.setupScrollView()
         self.confettiView = SAConfettiView(frame: self.scrollView.bounds)
         self.scrollView.addSubview(self.confettiView)
     }
     
-    override open func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if showConfetti {
             self.confettiView.startConfetti()
         }
     }
 
-    override open func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     private func setupScrollView() {
         self.scrollView.delegate = self
-        self.scrollView.isScrollEnabled = true
-        self.scrollView.isPagingEnabled = true
+        self.scrollView.scrollEnabled = true
+        self.scrollView.pagingEnabled = true
         self.scrollView.showsVerticalScrollIndicator = false
         self.scrollView.showsHorizontalScrollIndicator = false
         self.pageControl.numberOfPages = self.pages.count
@@ -70,17 +70,17 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
             self.pages[index].pageNumber = index
             index += 1
         }
-        self.view.sendSubview(toBack: self.scrollView)
+        self.view.sendSubviewToBack(self.scrollView)
         self.currentPage = self.pages[0]
     }
     
     
-    override open func viewWillLayoutSubviews() {
+    override public func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         let size = scrollView.bounds.size
         let pageCount = CGFloat(self.pages.count)
         self.scrollView.contentSize = CGSize(width: size.width*pageCount, height: size.height)
-        self.scrollView.contentInset = UIEdgeInsets.zero
+        self.scrollView.contentInset = UIEdgeInsetsZero
         for p1 in pages {
             p1.frame = CGRect(x: size.width*CGFloat(p1.pageNumber), y: 0, width: size.width, height: size.height)
         }
@@ -96,19 +96,19 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
     }
     
     private func setupPage(){
-        self.nextButton.isHidden = true
+        self.nextButton.hidden = true
         if self.currentPage.showNextButton {
-            self.perform(#selector(self.shownextButton), with: nil, afterDelay: self.currentPage.delayBeforeShowing)
+            self.performSelector(#selector(self.shownextButton), withObject: nil, afterDelay: self.currentPage.delayBeforeShowing)
         }
     }
     
     @objc private func shownextButton(){
-        self.nextButton.isHidden = false
+        self.nextButton.hidden = false
         if self.currentPage.pageNumber == self.pages.count-1 {
             // last page is being displayed
-            self.nextButton.setTitle("Finish", for: .normal)
+            self.nextButton.setTitle("Finish", forState: .Normal)
         } else {
-            self.nextButton.setTitle("Next", for: .normal)
+            self.nextButton.setTitle("Next", forState: .Normal)
         }
         
     }
@@ -118,9 +118,9 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
         if self.currentPage.pageNumber == self.pages.count-1 {
             // finish button clicked
             if self.navigationController != nil {
-                self.navigationController!.popViewController(animated: true)
+                self.navigationController!.popViewControllerAnimated(true)
             } else if self.presentingViewController != nil {
-                self.presentingViewController?.dismiss(animated: true, completion: nil)
+                self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
             }
         } else {
             let nextPageIndex = self.currentPage.pageNumber + 1

@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         
         
         /// GET BUNDLE TO LOAD NIB
-        let path = Bundle(for: CIPageView.self).path(forResource: "TZConfettiIntro", ofType: "bundle")
-        let bundle = Bundle(path: path!)
+        let path = NSBundle.init(forClass: TZConfettiIntroViewController.self).pathForResource("TZConfettiIntro", ofType: "bundle")
+        let bundle = NSBundle(path: path!)
         let controller = NewFeatureIntroViewController(nibName: "TZConfettiIntroViewController", bundle: bundle)
         self.navigationController?.pushViewController(controller, animated: false)
     }
