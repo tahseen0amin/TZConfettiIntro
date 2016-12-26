@@ -16,6 +16,7 @@
 		92A6AAC886D6AE9C2AF7A7CC /* Pods_TZConfettiIntro_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E111B2E90D651693F52502 /* Pods_TZConfettiIntro_Tests.framework */; };
 		96DA0EDE799BA28AA4C39FE2 /* Pods_TZConfettiIntro_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F6FFB7B90A24C42CFE44E7 /* Pods_TZConfettiIntro_Example.framework */; };
 		FA2266681E0F14C000A33250 /* NewFeatureIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2266671E0F14C000A33250 /* NewFeatureIntroViewController.swift */; };
+		FA2266751E10E80500A33250 /* CustomPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2266741E10E80500A33250 /* CustomPageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AAEC556F5FCB38201263A357 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CADF78C369DF351F98E3D50F /* TZConfettiIntro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TZConfettiIntro.podspec; path = ../TZConfettiIntro.podspec; sourceTree = "<group>"; };
 		FA2266671E0F14C000A33250 /* NewFeatureIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureIntroViewController.swift; sourceTree = "<group>"; };
+		FA2266741E10E80500A33250 /* CustomPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				FA2266741E10E80500A33250 /* CustomPageView.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for TZConfettiIntro";
@@ -253,6 +256,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				FA2266751E10E80500A33250 /* CustomPageView.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,9 +11,9 @@ import UIKit
 open class CIPageView: UIView {
     
     @IBOutlet open var contentView : UIView?
-    @IBOutlet open weak var imageView: UIImageView!
-    @IBOutlet open weak var headingLabel: UILabel!
-    @IBOutlet open weak var bodyLabel: UILabel!
+    @IBOutlet open weak var imageView: UIImageView?
+    @IBOutlet open weak var headingLabel: UILabel?
+    @IBOutlet open weak var bodyLabel: UILabel?
     @IBOutlet open var confitiView : UIView?
     
     open var pageNumber:Int = 0
@@ -30,12 +30,19 @@ open class CIPageView: UIView {
         self.commonInit()
     }
     
-    override open func awakeFromNib() {
-        super.awakeFromNib()
-        self.commonInit()
+    public convenience init(customNib: UINib?) {
+        self.init()
+        if customNib != nil {
+            let view = customNib!.instantiate(withOwner: self, options: nil)[0] as! UIView
+            contentView = view
+            self.addSubViewWithConstraint(subview: contentView!, inset: .zero)
+        } else {
+            self.commonInit()
+        }
+        
     }
     
-    open func commonInit() {
+    private func commonInit() {
         let path = Bundle(for: CIPageView.self).path(forResource: "TZConfettiIntro", ofType: "bundle")
         let bundle = Bundle(path: path!)
         let view = bundle?.loadNibNamed("CIPageView", owner: self, options: nil)![0] as! UIView
