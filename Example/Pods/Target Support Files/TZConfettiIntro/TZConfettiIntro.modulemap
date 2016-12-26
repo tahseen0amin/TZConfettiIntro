@@ -1,0 +1,6 @@
+framework module TZConfettiIntro {
+  umbrella header "TZConfettiIntro-umbrella.h"
+
+  export *
+  module * { export * }
+}

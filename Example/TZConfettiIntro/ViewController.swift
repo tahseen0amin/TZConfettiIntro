@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import TZConfettiIntro
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let controller = NewFeatureIntroViewController(nibName: "TZConfettiIntroViewController", bundle: Bundle.main)
+        
+        
+        /// GET BUNDLE TO LOAD NIB
+        let path = Bundle(for: CIPageView.self).path(forResource: "TZConfettiIntro", ofType: "bundle")
+        let bundle = Bundle(path: path!)
+        let controller = NewFeatureIntroViewController(nibName: "TZConfettiIntroViewController", bundle: bundle)
         self.navigationController?.pushViewController(controller, animated: false)
     }
 

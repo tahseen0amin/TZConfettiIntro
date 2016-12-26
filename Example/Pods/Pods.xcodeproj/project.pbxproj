@@ -7,24 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13BD98AB0F12BEEDAD6C3C512B82B993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		22860A9E220DE0E079E107BDA5ACAED2 /* TZConfettiIntro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5316CECD70759EF000FA57AB451F21F0 /* TZConfettiIntro-dummy.m */; };
-		4A849458773324D25B813793D9C008C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		51B8C501B16DF2E06070CD9B0A742206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0C13DE4C0BF17CB6AEF728344058F82B /* CIPageView.xib in Sources */ = {isa = PBXBuildFile; fileRef = C2FF71ECE82E378EFE77F21FF6A09817 /* CIPageView.xib */; };
+		13BD98AB0F12BEEDAD6C3C512B82B993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		35994485E57AAF20B321C27B0352D59B /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92C8D580565941E88C72E2E9F2762D /* SAConfettiView.swift */; };
+		51B8C501B16DF2E06070CD9B0A742206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
 		551E7D86C6A12FFB0C881214852DD9FB /* Pods-TZConfettiIntro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C51ED18454922DFCB8CA174E513C7F7A /* Pods-TZConfettiIntro_Example-dummy.m */; };
+		571ADD9225891B52230045169F1CB8A0 /* CIPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02BE046967D43A8E761519C6B562924 /* CIPageView.xib */; };
+		5BB99C254530F9AE8A4A29E40407F50F /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E08AAF9A885C8EB9A796852801250C /* diamond.png */; };
+		6147FBA210390E70E46A4F57E4B49CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF675A168132FD52AED630F977FE906 /* UIKit.framework */; };
+		65D0A0B13819FA9A9AECA528B63C9D65 /* TZConfettiIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4098BDDDB7BA9C5841336FC6F2A47C /* TZConfettiIntroViewController.swift */; };
 		7431C59209E1F228876F67072B114CB5 /* Pods-TZConfettiIntro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3087525ED5C3D302150F2864E3B588F /* Pods-TZConfettiIntro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93C49D21BF935F7E64D0CD070E820212 /* TZConfettiIntro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EB6AEDE572FD812E178EDEF2FEC241 /* TZConfettiIntro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805CC00AF82B09BC1CE77032208C9112 /* TZConfettiIntro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 403F894E4F009715EE46A606476C3ECE /* TZConfettiIntro-dummy.m */; };
+		917900FEF76D99EA96D680CC7C50A98C /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2803CB4FF0A0B9F117857F9C3A09E518 /* triangle.png */; };
+		93C49D21BF935F7E64D0CD070E820212 /* TZConfettiIntro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB382E09DD205AE537EBA0456D509D50 /* TZConfettiIntro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D4344BCBB8CF2CEB254DAB576561D76 /* TZConfettiIntro.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C829855BE522274F7A0C0606D8B30BEE /* TZConfettiIntro.bundle */; };
+		A7B6D31B7582B3CB59DE2FB6B482D2AB /* CIPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F007A5AC882885E8856B26E0E8FE88 /* CIPageView.swift */; };
+		B34766200FF1EB6861350406D8814496 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E6469BB865C70348456D5808B79951 /* confetti.png */; };
+		B63270CF52856ADC31A1D5E692EC822E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = D5E09B6A20FBA778049DA6A1AE1ABC54 /* star.png */; };
+		C4612D1CE0FAF89FBF05A4E0AAE6F13A /* TZConfettiIntroViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = DC7668E6DF8572DD9F81F492D2754EA7 /* TZConfettiIntroViewController.xib */; };
 		D28BBB732CE7433DD75C9BEB911E959E /* Pods-TZConfettiIntro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 772D3C78755BAE8360B5CFC3FA9A398D /* Pods-TZConfettiIntro_Tests-dummy.m */; };
-		FA22665C1E0F13A800A33250 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22665B1E0F13A800A33250 /* SAConfettiView.swift */; };
-		FA22665D1E0F13A800A33250 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22665B1E0F13A800A33250 /* SAConfettiView.swift */; };
-		FA2266611E0F13F200A33250 /* TZConfettiIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22665F1E0F13F200A33250 /* TZConfettiIntroViewController.swift */; };
-		FA2266621E0F13F200A33250 /* TZConfettiIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22665F1E0F13F200A33250 /* TZConfettiIntroViewController.swift */; };
-		FA2266651E0F13FC00A33250 /* CIPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2266631E0F13FB00A33250 /* CIPageView.swift */; };
-		FA2266661E0F13FC00A33250 /* CIPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2266631E0F13FB00A33250 /* CIPageView.swift */; };
+		D50F233635C50461FF623D2C37BFB551 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */; };
+		FC0C08D7C86032C5D01DC0D8EB684349 /* TZConfettiIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 824698853C49D1A8114F1A4B0D48BD01 /* TZConfettiIntroViewController.xib */; };
 		FD2D8FB0B7A4B393983910479476375A /* Pods-TZConfettiIntro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A07DA9E7F06BE5CEB4B186E86359B73 /* Pods-TZConfettiIntro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9BE74CBA3D91E855EDE0941C87B66D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8FB5B6B75256A0D9FAB776BC4C89F170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57576DAFBF475C80021942DFC5F5ECF6;
+			remoteInfo = "TZConfettiIntro-TZConfettiIntro";
+		};
 		D485D2A74B85856947F78506963BD871 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -35,42 +50,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C92B804D5B3C5AE3A5356C812EB308C /* TZConfettiIntro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZConfettiIntro-prefix.pch"; sourceTree = "<group>"; };
-		220A3A961B6D84438A37AA3614715B66 /* Pods-TZConfettiIntro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TZConfettiIntro_Tests.modulemap"; sourceTree = "<group>"; };
+		07F007A5AC882885E8856B26E0E8FE88 /* CIPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CIPageView.swift; sourceTree = "<group>"; };
+		220A3A961B6D84438A37AA3614715B66 /* Pods-TZConfettiIntro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TZConfettiIntro_Tests.modulemap"; sourceTree = "<group>"; };
+		2503C4DAE03D85B0CC5762FE273C3981 /* TZConfettiIntro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TZConfettiIntro.framework; path = TZConfettiIntro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2803CB4FF0A0B9F117857F9C3A09E518 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; path = triangle.png; sourceTree = "<group>"; };
 		2C74F7F7F5B5D9D4159E007567832467 /* Pods-TZConfettiIntro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZConfettiIntro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		332A7CE17A62C97DCCBCF30443758CD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BFA888ACE1572DFFDEC35B9B143D7D4 /* Pods-TZConfettiIntro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZConfettiIntro_Example-frameworks.sh"; sourceTree = "<group>"; };
+		403F894E4F009715EE46A606476C3ECE /* TZConfettiIntro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZConfettiIntro-dummy.m"; sourceTree = "<group>"; };
 		473B28C0A2C13E05D5D16DDF7286364E /* Pods-TZConfettiIntro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZConfettiIntro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4895BE7524F87214E04DB8EEB96A23A9 /* Pods-TZConfettiIntro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZConfettiIntro_Example.release.xcconfig"; sourceTree = "<group>"; };
-		49A57FE87AC9C809811C7BA74287D9D0 /* Pods_TZConfettiIntro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZConfettiIntro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5316CECD70759EF000FA57AB451F21F0 /* TZConfettiIntro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZConfettiIntro-dummy.m"; sourceTree = "<group>"; };
-		53EB6AEDE572FD812E178EDEF2FEC241 /* TZConfettiIntro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZConfettiIntro-umbrella.h"; sourceTree = "<group>"; };
+		5BF675A168132FD52AED630F977FE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5E462BDDF4DAEA1FA1328C5999D2D81E /* Pods-TZConfettiIntro_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZConfettiIntro_Tests-resources.sh"; sourceTree = "<group>"; };
 		651A4BD233807C21A2C1774B707F867C /* Pods-TZConfettiIntro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZConfettiIntro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		68DAFFB4492CBF529F925AE71258E9AC /* TZConfettiIntro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TZConfettiIntro.modulemap; sourceTree = "<group>"; };
-		6ACBD1505C9968A9BFFC38F3B9611AC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0CC10ADDA19E3CAFCAF376C0ED5FE4 /* ResourceBundle-TZConfettiIntro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TZConfettiIntro-Info.plist"; sourceTree = "<group>"; };
 		772D3C78755BAE8360B5CFC3FA9A398D /* Pods-TZConfettiIntro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZConfettiIntro_Tests-dummy.m"; sourceTree = "<group>"; };
 		7A07DA9E7F06BE5CEB4B186E86359B73 /* Pods-TZConfettiIntro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZConfettiIntro_Example-umbrella.h"; sourceTree = "<group>"; };
 		7A6A44C931B18FC3B197201F53AC2310 /* Pods-TZConfettiIntro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZConfettiIntro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B945E6A79F78F77AF01BA0CE5271D55 /* Pods-TZConfettiIntro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZConfettiIntro_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DAEB943EF3DF435103D69760F4AF679 /* TZConfettiIntro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZConfettiIntro-prefix.pch"; sourceTree = "<group>"; };
+		824698853C49D1A8114F1A4B0D48BD01 /* TZConfettiIntroViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TZConfettiIntroViewController.xib; sourceTree = "<group>"; };
 		8DFDD341CF0E5A2B92B013BA3C502845 /* Pods-TZConfettiIntro_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZConfettiIntro_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A42879DDF31AA61E4722EF210A33E3D6 /* TZConfettiIntro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZConfettiIntro.xcconfig; sourceTree = "<group>"; };
 		A88A33703D2ECB78003A754A6E800802 /* Pods-TZConfettiIntro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZConfettiIntro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD2E627092624CB4924139F7C63791AA /* TZConfettiIntro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TZConfettiIntro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA92C8D580565941E88C72E2E9F2762D /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
+		BA4098BDDDB7BA9C5841336FC6F2A47C /* TZConfettiIntroViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TZConfettiIntroViewController.swift; sourceTree = "<group>"; };
+		C2E6469BB865C70348456D5808B79951 /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; path = confetti.png; sourceTree = "<group>"; };
+		C2FF71ECE82E378EFE77F21FF6A09817 /* CIPageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CIPageView.xib; sourceTree = "<group>"; };
 		C3087525ED5C3D302150F2864E3B588F /* Pods-TZConfettiIntro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZConfettiIntro_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C51ED18454922DFCB8CA174E513C7F7A /* Pods-TZConfettiIntro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZConfettiIntro_Example-dummy.m"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D4F8253B70824379B2381A96EF01347A /* TZConfettiIntro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZConfettiIntro.xcconfig; sourceTree = "<group>"; };
+		C829855BE522274F7A0C0606D8B30BEE /* TZConfettiIntro.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TZConfettiIntro.bundle; path = TZConfettiIntro.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E08AAF9A885C8EB9A796852801250C /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; path = diamond.png; sourceTree = "<group>"; };
+		CB382E09DD205AE537EBA0456D509D50 /* TZConfettiIntro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZConfettiIntro-umbrella.h"; sourceTree = "<group>"; };
+		D02BE046967D43A8E761519C6B562924 /* CIPageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CIPageView.xib; sourceTree = "<group>"; };
+		D5E09B6A20FBA778049DA6A1AE1ABC54 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; path = star.png; sourceTree = "<group>"; };
+		D949632628326A2EE8F2D00D0A13731A /* Pods_TZConfettiIntro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZConfettiIntro_Tests.framework; path = "Pods-TZConfettiIntro_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC9B8EEADADFA4DD764B751518B625D /* Pods_TZConfettiIntro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZConfettiIntro_Example.framework; path = "Pods-TZConfettiIntro_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7668E6DF8572DD9F81F492D2754EA7 /* TZConfettiIntroViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TZConfettiIntroViewController.xib; sourceTree = "<group>"; };
 		DC9A7D7BDDAE4C794DCC1ACAD3F9611B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		EACB03530B4189CD7A10D67BF31C3253 /* Pods-TZConfettiIntro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZConfettiIntro_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC927DF0D3E251E72F2228681A28836D /* Pods_TZConfettiIntro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZConfettiIntro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		ED116F5DA06EBC9248721812006B7B5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDF1EBF8510F3CFC9F49779FF92E12DF /* Pods-TZConfettiIntro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TZConfettiIntro_Example.modulemap"; sourceTree = "<group>"; };
-		FA22665B1E0F13A800A33250 /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
-		FA22665E1E0F13D900A33250 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		FA22665F1E0F13F200A33250 /* TZConfettiIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZConfettiIntroViewController.swift; sourceTree = "<group>"; };
-		FA2266601E0F13F200A33250 /* TZConfettiIntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZConfettiIntroViewController.xib; sourceTree = "<group>"; };
-		FA2266631E0F13FB00A33250 /* CIPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIPageView.swift; sourceTree = "<group>"; };
-		FA2266641E0F13FC00A33250 /* CIPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPageView.xib; sourceTree = "<group>"; };
+		EDF1EBF8510F3CFC9F49779FF92E12DF /* Pods-TZConfettiIntro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TZConfettiIntro_Example.modulemap"; sourceTree = "<group>"; };
+		F10E44FBD92B22B23BA8950B2AF77256 /* TZConfettiIntro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TZConfettiIntro.modulemap; sourceTree = "<group>"; };
 		FDDD6989487D2372211C8DCF8F383A91 /* Pods-TZConfettiIntro_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZConfettiIntro_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,11 +107,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A9969D92A9991BB8EBE6539AC377A2C /* Frameworks */ = {
+		836E0313CD7048E08676E461864A5894 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A849458773324D25B813793D9C008C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D0D3084351B573ED374F5C1011CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9BE74CBA3D91E855EDE0941C87B66D /* Foundation.framework in Frameworks */,
+				D50F233635C50461FF623D2C37BFB551 /* QuartzCore.framework in Frameworks */,
+				6147FBA210390E70E46A4F57E4B49CA4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,34 +135,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3139DD230FA3A10C9FA6C2A1B8BC9686 /* Classes */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA2266631E0F13FB00A33250 /* CIPageView.swift */,
-				FA2266641E0F13FC00A33250 /* CIPageView.xib */,
-				FA22665F1E0F13F200A33250 /* TZConfettiIntroViewController.swift */,
-				FA2266601E0F13F200A33250 /* TZConfettiIntroViewController.xib */,
-				FA22665A1E0F139500A33250 /* Confettor */,
+				E5E9260013FA223D81B907D9285F6EA1 /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		462F59CC73E3B816B736DC2982FE8B62 /* TZConfettiIntro */ = {
+		3BEF3C5EFFBD07846D7CFD41B8902A86 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3139DD230FA3A10C9FA6C2A1B8BC9686 /* Classes */,
+				D02BE046967D43A8E761519C6B562924 /* CIPageView.xib */,
+				C2E6469BB865C70348456D5808B79951 /* confetti.png */,
+				C8E08AAF9A885C8EB9A796852801250C /* diamond.png */,
+				D5E09B6A20FBA778049DA6A1AE1ABC54 /* star.png */,
+				2803CB4FF0A0B9F117857F9C3A09E518 /* triangle.png */,
+				824698853C49D1A8114F1A4B0D48BD01 /* TZConfettiIntroViewController.xib */,
 			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		59ED4ABD935015173D48EF7A81C410F0 /* TZConfettiIntro */ = {
+			isa = PBXGroup;
+			children = (
+				CCD006AC8BBA56FDB24CD5B5AAFB90C7 /* Classes */,
+			);
+			name = TZConfettiIntro;
 			path = TZConfettiIntro;
 			sourceTree = "<group>";
 		};
-		5A873F0632BDB6485BF6F59B6CABD3C2 /* TZConfettiIntro */ = {
+		610BB5427378BFEB1FB007A2FD1DE4FF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D516E2520630BA0E116F34DA9101F788 /* Support Files */,
-				462F59CC73E3B816B736DC2982FE8B62 /* TZConfettiIntro */,
+				CAEA7B87945C670BAE53BF341EC0ECB8 /* TZConfettiIntro */,
 			);
-			name = TZConfettiIntro;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		61D18FA6D9766E6E10F0A43F01602A8F /* Pods-TZConfettiIntro_Tests */ = {
@@ -150,21 +192,22 @@
 			path = "Target Support Files/Pods-TZConfettiIntro_Tests";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		78A80B26B5454FD4E4410830DF769380 /* TZConfettiIntro */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				3BEF3C5EFFBD07846D7CFD41B8902A86 /* Assets */,
 			);
-			name = iOS;
+			name = TZConfettiIntro;
+			path = TZConfettiIntro;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DFAE92B31B1E2068EC7CE3239CCBCEA0 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CAD93EB814EF05348378A5E19B656A86 /* Products */,
+				610BB5427378BFEB1FB007A2FD1DE4FF /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				FFAB61472F66051D84BFEBD49AEE3386 /* Products */,
 				D17879A093F9EF279EEE9F8BE99831EF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -187,22 +230,43 @@
 			path = "Target Support Files/Pods-TZConfettiIntro_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CAEA7B87945C670BAE53BF341EC0ECB8 /* TZConfettiIntro */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				EE236A904250B13A8259920B926722A3 /* Resources */,
+				D067F79CE0DBEBB55B6A208CD3E4D599 /* Support Files */,
+				59ED4ABD935015173D48EF7A81C410F0 /* TZConfettiIntro */,
 			);
-			name = Frameworks;
+			name = TZConfettiIntro;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		CAD93EB814EF05348378A5E19B656A86 /* Products */ = {
+		CCD006AC8BBA56FDB24CD5B5AAFB90C7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EC927DF0D3E251E72F2228681A28836D /* Pods_TZConfettiIntro_Example.framework */,
-				49A57FE87AC9C809811C7BA74287D9D0 /* Pods_TZConfettiIntro_Tests.framework */,
-				AD2E627092624CB4924139F7C63791AA /* TZConfettiIntro.framework */,
+				07F007A5AC882885E8856B26E0E8FE88 /* CIPageView.swift */,
+				C2FF71ECE82E378EFE77F21FF6A09817 /* CIPageView.xib */,
+				AA92C8D580565941E88C72E2E9F2762D /* SAConfettiView.swift */,
+				BA4098BDDDB7BA9C5841336FC6F2A47C /* TZConfettiIntroViewController.swift */,
+				DC7668E6DF8572DD9F81F492D2754EA7 /* TZConfettiIntroViewController.xib */,
 			);
-			name = Products;
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D067F79CE0DBEBB55B6A208CD3E4D599 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				332A7CE17A62C97DCCBCF30443758CD0 /* Info.plist */,
+				6E0CC10ADDA19E3CAFCAF376C0ED5FE4 /* ResourceBundle-TZConfettiIntro-Info.plist */,
+				F10E44FBD92B22B23BA8950B2AF77256 /* TZConfettiIntro.modulemap */,
+				A42879DDF31AA61E4722EF210A33E3D6 /* TZConfettiIntro.xcconfig */,
+				403F894E4F009715EE46A606476C3ECE /* TZConfettiIntro-dummy.m */,
+				7DAEB943EF3DF435103D69760F4AF679 /* TZConfettiIntro-prefix.pch */,
+				CB382E09DD205AE537EBA0456D509D50 /* TZConfettiIntro-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TZConfettiIntro";
 			sourceTree = "<group>";
 		};
 		D17879A093F9EF279EEE9F8BE99831EF /* Targets Support Files */ = {
@@ -214,35 +278,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D516E2520630BA0E116F34DA9101F788 /* Support Files */ = {
+		E5E9260013FA223D81B907D9285F6EA1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6ACBD1505C9968A9BFFC38F3B9611AC7 /* Info.plist */,
-				68DAFFB4492CBF529F925AE71258E9AC /* TZConfettiIntro.modulemap */,
-				D4F8253B70824379B2381A96EF01347A /* TZConfettiIntro.xcconfig */,
-				5316CECD70759EF000FA57AB451F21F0 /* TZConfettiIntro-dummy.m */,
-				0C92B804D5B3C5AE3A5356C812EB308C /* TZConfettiIntro-prefix.pch */,
-				53EB6AEDE572FD812E178EDEF2FEC241 /* TZConfettiIntro-umbrella.h */,
+				EC32878090C4B2B93381956161EC0930 /* Foundation.framework */,
+				E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */,
+				5BF675A168132FD52AED630F977FE906 /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TZConfettiIntro";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		DFAE92B31B1E2068EC7CE3239CCBCEA0 /* Development Pods */ = {
+		EE236A904250B13A8259920B926722A3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5A873F0632BDB6485BF6F59B6CABD3C2 /* TZConfettiIntro */,
+				78A80B26B5454FD4E4410830DF769380 /* TZConfettiIntro */,
 			);
-			name = "Development Pods";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		FA22665A1E0F139500A33250 /* Confettor */ = {
+		FFAB61472F66051D84BFEBD49AEE3386 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA22665E1E0F13D900A33250 /* Media.xcassets */,
-				FA22665B1E0F13A800A33250 /* SAConfettiView.swift */,
+				DBC9B8EEADADFA4DD764B751518B625D /* Pods_TZConfettiIntro_Example.framework */,
+				D949632628326A2EE8F2D00D0A13731A /* Pods_TZConfettiIntro_Tests.framework */,
+				C829855BE522274F7A0C0606D8B30BEE /* TZConfettiIntro.bundle */,
+				2503C4DAE03D85B0CC5762FE273C3981 /* TZConfettiIntro.framework */,
 			);
-			name = Confettor;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,17 +341,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C951CC1E6239AB14CC9FD5D0AF6BA9D /* Build configuration list for PBXNativeTarget "TZConfettiIntro" */;
 			buildPhases = (
-				C75253C70E2EE744D7C51CFCF2C83EEF /* Sources */,
-				9A9969D92A9991BB8EBE6539AC377A2C /* Frameworks */,
+				B5BB9AA98E3239410FCB9F47DF456B67 /* Sources */,
+				B53D0D3084351B573ED374F5C1011CAC /* Frameworks */,
+				CE51D7424CA19D5FA1FDEB1166B361CE /* Resources */,
 				752E4CFDE9AB6BF2CC82B30B443E5955 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9555BDF864B53487A2320C1577DC2345 /* PBXTargetDependency */,
 			);
 			name = TZConfettiIntro;
 			productName = TZConfettiIntro;
-			productReference = AD2E627092624CB4924139F7C63791AA /* TZConfettiIntro.framework */;
+			productReference = 2503C4DAE03D85B0CC5762FE273C3981 /* TZConfettiIntro.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3892AF36545AA29F58C879177035AE19 /* Pods-TZConfettiIntro_Tests */ = {
@@ -306,8 +370,25 @@
 			);
 			name = "Pods-TZConfettiIntro_Tests";
 			productName = "Pods-TZConfettiIntro_Tests";
-			productReference = 49A57FE87AC9C809811C7BA74287D9D0 /* Pods_TZConfettiIntro_Tests.framework */;
+			productReference = D949632628326A2EE8F2D00D0A13731A /* Pods_TZConfettiIntro_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		57576DAFBF475C80021942DFC5F5ECF6 /* TZConfettiIntro-TZConfettiIntro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEB20D77162E067E47F9A6599EA9B19 /* Build configuration list for PBXNativeTarget "TZConfettiIntro-TZConfettiIntro" */;
+			buildPhases = (
+				F931DD07F0403E24426E4AEF492E9E0C /* Sources */,
+				836E0313CD7048E08676E461864A5894 /* Frameworks */,
+				C5EE5E4E17AC5BDE9A70E662AB821158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TZConfettiIntro-TZConfettiIntro";
+			productName = "TZConfettiIntro-TZConfettiIntro";
+			productReference = C829855BE522274F7A0C0606D8B30BEE /* TZConfettiIntro.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		946FCBF74146FF4E770F4BB4AD8A3AA6 /* Pods-TZConfettiIntro_Example */ = {
 			isa = PBXNativeTarget;
@@ -324,7 +405,7 @@
 			);
 			name = "Pods-TZConfettiIntro_Example";
 			productName = "Pods-TZConfettiIntro_Example";
-			productReference = EC927DF0D3E251E72F2228681A28836D /* Pods_TZConfettiIntro_Example.framework */;
+			productReference = DBC9B8EEADADFA4DD764B751518B625D /* Pods_TZConfettiIntro_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -335,14 +416,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					082B9B5C7F83DBED27076A199E4947FF = {
-						LastSwiftMigration = 0810;
-					};
-					946FCBF74146FF4E770F4BB4AD8A3AA6 = {
-						LastSwiftMigration = 0810;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,16 +425,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CAD93EB814EF05348378A5E19B656A86 /* Products */;
+			productRefGroup = FFAB61472F66051D84BFEBD49AEE3386 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				946FCBF74146FF4E770F4BB4AD8A3AA6 /* Pods-TZConfettiIntro_Example */,
 				3892AF36545AA29F58C879177035AE19 /* Pods-TZConfettiIntro_Tests */,
 				082B9B5C7F83DBED27076A199E4947FF /* TZConfettiIntro */,
+				57576DAFBF475C80021942DFC5F5ECF6 /* TZConfettiIntro-TZConfettiIntro */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5EE5E4E17AC5BDE9A70E662AB821158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ADD9225891B52230045169F1CB8A0 /* CIPageView.xib in Resources */,
+				B34766200FF1EB6861350406D8814496 /* confetti.png in Resources */,
+				5BB99C254530F9AE8A4A29E40407F50F /* diamond.png in Resources */,
+				B63270CF52856ADC31A1D5E692EC822E /* star.png in Resources */,
+				917900FEF76D99EA96D680CC7C50A98C /* triangle.png in Resources */,
+				FC0C08D7C86032C5D01DC0D8EB684349 /* TZConfettiIntroViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE51D7424CA19D5FA1FDEB1166B361CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4344BCBB8CF2CEB254DAB576561D76 /* TZConfettiIntro.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49AC1ACF0B701C61A7039922AA792E03 /* Sources */ = {
@@ -376,21 +474,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA22665C1E0F13A800A33250 /* SAConfettiView.swift in Sources */,
 				551E7D86C6A12FFB0C881214852DD9FB /* Pods-TZConfettiIntro_Example-dummy.m in Sources */,
-				FA2266611E0F13F200A33250 /* TZConfettiIntroViewController.swift in Sources */,
-				FA2266651E0F13FC00A33250 /* CIPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C75253C70E2EE744D7C51CFCF2C83EEF /* Sources */ = {
+		B5BB9AA98E3239410FCB9F47DF456B67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA22665D1E0F13A800A33250 /* SAConfettiView.swift in Sources */,
-				22860A9E220DE0E079E107BDA5ACAED2 /* TZConfettiIntro-dummy.m in Sources */,
-				FA2266621E0F13F200A33250 /* TZConfettiIntroViewController.swift in Sources */,
-				FA2266661E0F13FC00A33250 /* CIPageView.swift in Sources */,
+				A7B6D31B7582B3CB59DE2FB6B482D2AB /* CIPageView.swift in Sources */,
+				0C13DE4C0BF17CB6AEF728344058F82B /* CIPageView.xib in Sources */,
+				35994485E57AAF20B321C27B0352D59B /* SAConfettiView.swift in Sources */,
+				805CC00AF82B09BC1CE77032208C9112 /* TZConfettiIntro-dummy.m in Sources */,
+				65D0A0B13819FA9A9AECA528B63C9D65 /* TZConfettiIntroViewController.swift in Sources */,
+				C4612D1CE0FAF89FBF05A4E0AAE6F13A /* TZConfettiIntroViewController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F931DD07F0403E24426E4AEF492E9E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +507,12 @@
 			target = 082B9B5C7F83DBED27076A199E4947FF /* TZConfettiIntro */;
 			targetProxy = D485D2A74B85856947F78506963BD871 /* PBXContainerItemProxy */;
 		};
+		9555BDF864B53487A2320C1577DC2345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TZConfettiIntro-TZConfettiIntro";
+			target = 57576DAFBF475C80021942DFC5F5ECF6 /* TZConfettiIntro-TZConfettiIntro */;
+			targetProxy = 8FB5B6B75256A0D9FAB776BC4C89F170 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -410,7 +520,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4895BE7524F87214E04DB8EEB96A23A9 /* Pods-TZConfettiIntro_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -436,10 +545,26 @@
 				PRODUCT_NAME = Pods_TZConfettiIntro_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42A10654D1544555F5EA93181C5213FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42879DDF31AA61E4722EF210A33E3D6 /* TZConfettiIntro.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TZConfettiIntro";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TZConfettiIntro/ResourceBundle-TZConfettiIntro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TZConfettiIntro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -477,6 +602,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		717C9E2990146E56F6DD0AC6F12A4531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42879DDF31AA61E4722EF210A33E3D6 /* TZConfettiIntro.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TZConfettiIntro/TZConfettiIntro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TZConfettiIntro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TZConfettiIntro/TZConfettiIntro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TZConfettiIntro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7C58CC6926CC50280DD9631828200BBF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -597,44 +754,27 @@
 			};
 			name = Debug;
 		};
-		ABC4FFDCEE45A013068734C461C79E5D /* Release */ = {
+		C77B59BCCFCBA282F652F93E0D62F342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4F8253B70824379B2381A96EF01347A /* TZConfettiIntro.xcconfig */;
+			baseConfigurationReference = A42879DDF31AA61E4722EF210A33E3D6 /* TZConfettiIntro.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TZConfettiIntro";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TZConfettiIntro/TZConfettiIntro-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TZConfettiIntro/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/TZConfettiIntro/ResourceBundle-TZConfettiIntro-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TZConfettiIntro/TZConfettiIntro.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = TZConfettiIntro;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		CC55C741D8B71AD8E467AFD27A1063EB /* Debug */ = {
+		CF51EDD650B8A72004D6EF04A58C971F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4F8253B70824379B2381A96EF01347A /* TZConfettiIntro.xcconfig */;
+			baseConfigurationReference = A42879DDF31AA61E4722EF210A33E3D6 /* TZConfettiIntro.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -668,7 +808,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EACB03530B4189CD7A10D67BF31C3253 /* Pods-TZConfettiIntro_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -695,7 +834,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -717,8 +855,8 @@
 		7C951CC1E6239AB14CC9FD5D0AF6BA9D /* Build configuration list for PBXNativeTarget "TZConfettiIntro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC55C741D8B71AD8E467AFD27A1063EB /* Debug */,
-				ABC4FFDCEE45A013068734C461C79E5D /* Release */,
+				CF51EDD650B8A72004D6EF04A58C971F /* Debug */,
+				717C9E2990146E56F6DD0AC6F12A4531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -728,6 +866,15 @@
 			buildConfigurations = (
 				4C99547892F29E94C0511C6CA4787199 /* Debug */,
 				7C58CC6926CC50280DD9631828200BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEB20D77162E067E47F9A6599EA9B19 /* Build configuration list for PBXNativeTarget "TZConfettiIntro-TZConfettiIntro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77B59BCCFCBA282F652F93E0D62F342 /* Debug */,
+				42A10654D1544555F5EA93181C5213FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,7 +9,7 @@
 import UIKit
 import QuartzCore
 
-public class SAConfettiView: UIView {
+open class SAConfettiView: UIView {
 
     public enum ConfettiType {
         case Confetti
@@ -20,9 +20,9 @@ public class SAConfettiView: UIView {
     }
 
     var emitter: CAEmitterLayer!
-    public var colors: [UIColor]!
-    public var intensity: Float!
-    public var type: ConfettiType!
+    open var colors: [UIColor]!
+    open var intensity: Float!
+    open var type: ConfettiType!
     private var active :Bool!
 
     required public init?(coder aDecoder: NSCoder) {
@@ -46,7 +46,7 @@ public class SAConfettiView: UIView {
         active = false
     }
 
-    public func startConfetti() {
+    open func startConfetti() {
         emitter = CAEmitterLayer()
 
         emitter.emitterPosition = CGPoint(x: frame.size.width / 2.0, y: 0)
@@ -63,7 +63,7 @@ public class SAConfettiView: UIView {
         active = true
     }
 
-    public func stopConfetti() {
+    open func stopConfetti() {
         emitter?.birthRate = 0
         active = false
     }
@@ -84,17 +84,16 @@ public class SAConfettiView: UIView {
         case let .Image(customImage):
             return customImage
         }
-        return UIImage(named: fileName)
-        /*
-        let path = Bundle(for: SAConfettiView.self).path(forResource: "SAConfettiView", ofType: "bundle")
+                
+        let path = Bundle(for: SAConfettiView.self).path(forResource: "TZConfettiIntro", ofType: "bundle")
         let bundle = Bundle(path: path!)
         let imagePath = bundle?.path(forResource: fileName, ofType: "png")
         let url = NSURL(fileURLWithPath: imagePath!)
         let data = NSData(contentsOf: url as URL)
         if let data = data {
             return UIImage(data: data as Data)!
-        }*/
-        //return nil
+        }
+        return nil
     }
 
     func confettiWithColor(color: UIColor) -> CAEmitterCell {
@@ -115,7 +114,7 @@ public class SAConfettiView: UIView {
         return confetti
     }
 
-    public func isActive() -> Bool {
+    open func isActive() -> Bool {
     		return self.active
     }
 }

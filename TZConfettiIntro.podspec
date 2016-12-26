@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        A Simple Intro View Controller with confetti animation. Thanks to Sudeep Agarwal, I didn't have to write code for generating confetti. I used his library (SAConfettiView) in my project
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TZConfettiIntro'
+  s.homepage         = 'https://github.com/tahseen0amin/TZConfettiIntro'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Taseen' => 'tahseen0amin@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TZConfettiIntro.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/tahseen0amin/TZConfettiIntro.git', :tag => s.version.to_s }
+ s.social_media_url = 'https://twitter.com/taseenAmin'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TZConfettiIntro/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TZConfettiIntro' => ['TZConfettiIntro/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'TZConfettiIntro' => ['TZConfettiIntro/Assets/*.png','TZConfettiIntro/Assets/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'QuartzCore'
+# s.dependency 'SAConfettiView'
 end

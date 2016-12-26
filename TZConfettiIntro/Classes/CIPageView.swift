@@ -8,17 +8,17 @@
 
 import UIKit
 
-public class CIPageView: UIView {
+open class CIPageView: UIView {
     
-    @IBOutlet var contentView : UIView?
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var headingLabel: UILabel!
-    @IBOutlet weak var bodyLabel: UILabel!
-    @IBOutlet var confitiView : UIView?
+    @IBOutlet open var contentView : UIView?
+    @IBOutlet open weak var imageView: UIImageView!
+    @IBOutlet open weak var headingLabel: UILabel!
+    @IBOutlet open weak var bodyLabel: UILabel!
+    @IBOutlet open var confitiView : UIView?
     
-    var pageNumber:Int = 0
-    var showNextButton = false
-    var delayBeforeShowing : TimeInterval = 0.0
+    open var pageNumber:Int = 0
+    open var showNextButton = false
+    open var delayBeforeShowing : TimeInterval = 0.0
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,19 +30,21 @@ public class CIPageView: UIView {
         self.commonInit()
     }
     
-    override public func awakeFromNib() {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         self.commonInit()
     }
     
-    public func commonInit() {
-        let view = Bundle.main.loadNibNamed("CIPageView", owner: self, options: nil)![0] as! UIView
+    open func commonInit() {
+        let path = Bundle(for: CIPageView.self).path(forResource: "TZConfettiIntro", ofType: "bundle")
+        let bundle = Bundle(path: path!)
+        let view = bundle?.loadNibNamed("CIPageView", owner: self, options: nil)![0] as! UIView
         contentView = view
         self.addSubViewWithConstraint(subview: contentView!, inset: .zero)
     }
     
     /// Do any time of changes here 
-    public func setupPage(){
+    open func setupPage(){
     }
     
 }

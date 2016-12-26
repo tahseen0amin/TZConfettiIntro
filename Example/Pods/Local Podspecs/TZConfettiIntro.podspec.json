@@ -2,8 +2,8 @@
   "name": "TZConfettiIntro",
   "version": "0.1.0",
   "summary": "A short description of TZConfettiIntro.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TZConfettiIntro",
+  "description": "A Simple Intro View Controller with confetti animation. Thanks to Sudeep Agarwal, I didn't have to write code for generating confetti. I used his library (SAConfettiView) in my project",
+  "homepage": "https://github.com/tahseen0amin/TZConfettiIntro",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "Taseen": "tahseen0amin@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TZConfettiIntro.git",
+    "git": "https://github.com/tahseen0amin/TZConfettiIntro.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/taseenAmin",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TZConfettiIntro/Classes/**/*"
+  "source_files": "TZConfettiIntro/Classes/**/*",
+  "resource_bundles": {
+    "TZConfettiIntro": [
+      "TZConfettiIntro/Assets/*.png",
+      "TZConfettiIntro/Assets/*.xib"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "QuartzCore"
+  ]
 }

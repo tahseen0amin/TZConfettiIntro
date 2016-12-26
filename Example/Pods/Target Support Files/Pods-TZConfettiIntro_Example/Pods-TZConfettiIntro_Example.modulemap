@@ -1,0 +1,6 @@
+framework module Pods_TZConfettiIntro_Example {
+  umbrella header "Pods-TZConfettiIntro_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

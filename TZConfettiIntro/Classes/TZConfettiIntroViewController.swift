@@ -8,47 +8,49 @@
 
 import UIKit
 
-public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate {
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var pageControl: UIPageControl!
-    @IBOutlet weak var nextButton: UIButton! {
+open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate {
+    @IBOutlet public weak var scrollView: UIScrollView!
+    @IBOutlet public weak var pageControl: UIPageControl!
+    @IBOutlet public weak var nextButton: UIButton! {
         didSet {
             self.nextButton.isHidden = true
             self.nextButton.addTarget(self, action: #selector(self.nextClicked), for: .touchUpInside)
         }
     }
-    var pages : [CIPageView]! = []
+    public var pages : [CIPageView]! = []
     
-    var currentPage : CIPageView! {
+    public var currentPage : CIPageView! {
         didSet {
             self.setupPage()
         }
     }
     
     private var confettiView : SAConfettiView!
-    var showConfetti = true
+    open var showConfetti = true
     
     public class func getControllerObject() -> TZConfettiIntroViewController {
         let nameNib = "TZConfettiIntroViewController"
-        let object = TZConfettiIntroViewController.init(nibName: nameNib, bundle: Bundle.main)
+        let path = Bundle(for: TZConfettiIntroViewController.self).path(forResource: "TZConfettiIntro", ofType: "bundle")
+        let bundle = Bundle(path: path!)
+        let object = TZConfettiIntroViewController.init(nibName: nameNib, bundle: bundle)
         return object
     }
 
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         self.setupScrollView()
         self.confettiView = SAConfettiView(frame: self.scrollView.bounds)
         self.scrollView.addSubview(self.confettiView)
     }
     
-    override public func viewWillAppear(_ animated: Bool) {
+    override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if showConfetti {
             self.confettiView.startConfetti()
         }
     }
 
-    override public func didReceiveMemoryWarning() {
+    override open func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -73,7 +75,7 @@ public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelega
     }
     
     
-    override public func viewWillLayoutSubviews() {
+    override open func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         let size = scrollView.bounds.size
         let pageCount = CGFloat(self.pages.count)
