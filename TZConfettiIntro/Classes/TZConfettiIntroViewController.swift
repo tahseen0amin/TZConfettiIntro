@@ -104,24 +104,22 @@ public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelega
     
     @objc private func shownextButton(){
         self.nextButton.hidden = false
-        if self.currentPage.pageNumber == self.pages.count-1 {
-            // last page is being displayed
-            self.nextButton.setTitle("Finish", forState: .Normal)
-        } else {
-            self.nextButton.setTitle("Next", forState: .Normal)
+        self.nextButton.setTitle(self.currentPage.nextButtonTitle, forState: .Normal)
+    }
+    
+    public func skipOrLastPageButtonClicked(){
+        if self.navigationController != nil {
+            self.navigationController!.popViewControllerAnimated(true)
+        } else if self.presentingViewController != nil {
+            self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
         }
-        
     }
     
     @objc private func nextClicked(){
         
         if self.currentPage.pageNumber == self.pages.count-1 {
             // finish button clicked
-            if self.navigationController != nil {
-                self.navigationController!.popViewControllerAnimated(true)
-            } else if self.presentingViewController != nil {
-                self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
-            }
+            self.skipOrLastPageButtonClicked()
         } else {
             let nextPageIndex = self.currentPage.pageNumber + 1
             // Change the indicator
