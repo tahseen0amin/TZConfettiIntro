@@ -43,7 +43,7 @@ public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelega
         self.scrollView.addSubview(self.confettiView)
     }
     
-    override public func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         if showConfetti {
             self.confettiView.startConfetti()
@@ -87,7 +87,7 @@ public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelega
     }
     
     //MARK: Scrollview
-    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         let pageWidth:CGFloat = scrollView.frame.width
         let currentPage:CGFloat = floor((scrollView.contentOffset.x-pageWidth/2)/pageWidth)+1
         // Change the indicator
@@ -131,7 +131,7 @@ public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelega
         }
     }
     
-    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(scrollView: UIScrollView) {
         // update the frame of confetti View
         var frame = self.confettiView.frame
         frame.origin = scrollView.contentOffset
