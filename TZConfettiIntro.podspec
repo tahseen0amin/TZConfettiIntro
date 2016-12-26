@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TZConfettiIntro'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of TZConfettiIntro.'
+  s.summary          = 'Intro Controller with confetti. More Info Coming Soon'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
