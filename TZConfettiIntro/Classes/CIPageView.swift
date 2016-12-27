@@ -19,6 +19,7 @@ open class CIPageView: UIView {
     open var pageNumber:Int = 0
     open var showNextButton = false
     open var delayBeforeShowing : TimeInterval = 0.0
+    public var nextButtonTitle = "Next"
     
     override init(frame: CGRect) {
         super.init(frame: frame)

@@ -34,6 +34,8 @@ class NewFeatureIntroViewController: TZConfettiIntroViewController {
         self.nextButton.backgroundColor = UIColor.blue
         self.nextButton.tintColor = UIColor.white
         self.pageControl.isHidden = true
+        self.confettiType = .Diamond
+
     }
 
 }
