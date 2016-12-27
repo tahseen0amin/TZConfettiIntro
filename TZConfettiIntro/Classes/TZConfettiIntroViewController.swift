@@ -26,6 +26,7 @@ public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelega
     }
     
     private var confettiView : SAConfettiView!
+    public var confettiType : ConfettiType = ConfettiType.Confetti
     public var showConfetti = true
     
     public class func getControllerObject() -> TZConfettiIntroViewController {
@@ -46,6 +47,7 @@ public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelega
     override public func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         if showConfetti {
+            self.confettiView.type = self.confettiType
             self.confettiView.startConfetti()
         }
     }
@@ -97,6 +99,7 @@ public class TZConfettiIntroViewController: UIViewController, UIScrollViewDelega
     
     private func setupPage(){
         self.nextButton.hidden = true
+        self.nextButton.setTitle("", forState: .Normal)
         if self.currentPage.showNextButton {
             self.performSelector(#selector(self.shownextButton), withObject: nil, afterDelay: self.currentPage.delayBeforeShowing)
         }
