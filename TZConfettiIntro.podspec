@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZConfettiIntro'
-  s.version          = '2.0.3'
+  s.version          = '2.0.4'
   s.summary          = 'Intro Controller with confetti. more info coming soon'
 
 # This description is used to generate tags and improve search results.

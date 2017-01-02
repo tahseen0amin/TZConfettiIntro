@@ -48,6 +48,7 @@ open class CIPageView: UIView {
         let bundle = Bundle(path: path!)
         let view = bundle?.loadNibNamed("CIPageView", owner: self, options: nil)![0] as! UIView
         contentView = view
+        contentView?.frame = UIScreen.main.bounds
         self.addSubViewWithConstraint(subview: contentView!, inset: .zero)
     }
     

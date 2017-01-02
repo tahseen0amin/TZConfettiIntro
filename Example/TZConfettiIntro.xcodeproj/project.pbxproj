@@ -17,6 +17,7 @@
 		96DA0EDE799BA28AA4C39FE2 /* Pods_TZConfettiIntro_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F6FFB7B90A24C42CFE44E7 /* Pods_TZConfettiIntro_Example.framework */; };
 		FA2266681E0F14C000A33250 /* NewFeatureIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2266671E0F14C000A33250 /* NewFeatureIntroViewController.swift */; };
 		FA2266751E10E80500A33250 /* CustomPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2266741E10E80500A33250 /* CustomPageView.xib */; };
+		FAB9BBFB1E1A5E3900DB07D9 /* TZConfettiIntro.gif in Resources */ = {isa = PBXBuildFile; fileRef = FAB9BBFA1E1A5E3900DB07D9 /* TZConfettiIntro.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CADF78C369DF351F98E3D50F /* TZConfettiIntro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TZConfettiIntro.podspec; path = ../TZConfettiIntro.podspec; sourceTree = "<group>"; };
 		FA2266671E0F14C000A33250 /* NewFeatureIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureIntroViewController.swift; sourceTree = "<group>"; };
 		FA2266741E10E80500A33250 /* CustomPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPageView.xib; sourceTree = "<group>"; };
+		FAB9BBFA1E1A5E3900DB07D9 /* TZConfettiIntro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TZConfettiIntro.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				FAB9BBFA1E1A5E3900DB07D9 /* TZConfettiIntro.gif */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TZConfettiIntro */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -258,6 +261,7 @@
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				FA2266751E10E80500A33250 /* CustomPageView.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				FAB9BBFB1E1A5E3900DB07D9 /* TZConfettiIntro.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
