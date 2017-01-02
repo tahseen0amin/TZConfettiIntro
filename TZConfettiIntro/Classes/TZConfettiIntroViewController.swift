@@ -58,6 +58,7 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
     }
     
     private func setupScrollView() {
+        self.scrollView.frame = UIScreen.main.bounds
         self.scrollView.delegate = self
         self.scrollView.isScrollEnabled = true
         self.scrollView.isPagingEnabled = true
