@@ -9,15 +9,15 @@
 import UIKit
 import QuartzCore
 
-open class SAConfettiView: UIView {
+public enum ConfettiType {
+    case Confetti
+    case Triangle
+    case Star
+    case Diamond
+    case Image(UIImage)
+}
 
-    public enum ConfettiType {
-        case Confetti
-        case Triangle
-        case Star
-        case Diamond
-        case Image(UIImage)
-    }
+open class SAConfettiView: UIView {
 
     var emitter: CAEmitterLayer!
     open var colors: [UIColor]!

@@ -26,6 +26,7 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
     }
     
     private var confettiView : SAConfettiView!
+    public var confettiType : ConfettiType = ConfettiType.Confetti
     open var showConfetti = true
     
     public class func getControllerObject() -> TZConfettiIntroViewController {
@@ -46,6 +47,7 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
     override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if showConfetti {
+            self.confettiView.type = self.confettiType
             self.confettiView.startConfetti()
         }
     }
@@ -97,6 +99,7 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
     
     private func setupPage(){
         self.nextButton.isHidden = true
+        self.nextButton.setTitle("", for: .normal)
         if self.currentPage.showNextButton {
             self.perform(#selector(self.shownextButton), with: nil, afterDelay: self.currentPage.delayBeforeShowing)
         }
@@ -104,24 +107,22 @@ open class TZConfettiIntroViewController: UIViewController, UIScrollViewDelegate
     
     @objc private func shownextButton(){
         self.nextButton.isHidden = false
-        if self.currentPage.pageNumber == self.pages.count-1 {
-            // last page is being displayed
-            self.nextButton.setTitle("Finish", for: .normal)
-        } else {
-            self.nextButton.setTitle("Next", for: .normal)
+        self.nextButton.setTitle(self.currentPage.nextButtonTitle, for: .normal)
+    }
+    
+    public func skipOrLastPageButtonClicked(){
+        if self.navigationController != nil {
+            self.navigationController!.popViewController(animated: true)
+        } else if self.presentingViewController != nil {
+            self.presentingViewController?.dismiss(animated: true, completion: nil)
         }
-        
     }
     
     @objc private func nextClicked(){
         
         if self.currentPage.pageNumber == self.pages.count-1 {
             // finish button clicked
-            if self.navigationController != nil {
-                self.navigationController!.popViewController(animated: true)
-            } else if self.presentingViewController != nil {
-                self.presentingViewController?.dismiss(animated: true, completion: nil)
-            }
+            self.skipOrLastPageButtonClicked()
         } else {
             let nextPageIndex = self.currentPage.pageNumber + 1
             // Change the indicator

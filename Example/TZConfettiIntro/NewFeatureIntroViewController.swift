@@ -14,6 +14,7 @@ class NewFeatureIntroViewController: TZConfettiIntroViewController {
     override func viewDidLoad() {
         let page0 = CIPageView()
         page0.headingLabel?.text = "FIRST PAGE"
+        page0.bodyLabel?.text = "You can write anything here....\n New line also looks cool"
         page0.showNextButton = true
         page0.delayBeforeShowing = 2.0
         
@@ -31,9 +32,10 @@ class NewFeatureIntroViewController: TZConfettiIntroViewController {
         super.viewDidLoad()
         
         self.scrollView.isScrollEnabled = false
-        self.nextButton.backgroundColor = UIColor.blue
+        self.nextButton.backgroundColor = UIColor.init(red: 0.75, green: 0.65, blue: 0.32, alpha: 0.8)
         self.nextButton.tintColor = UIColor.white
         self.pageControl.isHidden = true
+        //self.confettiType = .Diamond
     }
 
 }
