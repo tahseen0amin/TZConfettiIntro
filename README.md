@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/TZConfettiIntro.svg?style=flat)](http://cocoapods.org/pods/TZConfettiIntro)
 
 <p align="center">
-  <img src="https://github.com/tahseen0amin/TZConfettiIntro/tree/master/Example/TZConfettiIntro.gif" alt="confetti" width="750" height="1136">
+  <img src="https://github.com/tahseen0amin/TZConfettiIntro/tree/master/Example/TZConfettiIntro.gif" alt="confetti" width="375" height="568">
 </p>
 ## Usage
 Subclass TZConfettiIntroViewController
