@@ -8,7 +8,9 @@
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/2269253/21588153/e1947452-d109-11e6-8402-e12a829b2323.gif" alt="confetti" width="375" height="568">
 </p>
+
 ## Usage
+
 Subclass TZConfettiIntroViewController
 ```swift
 class NewFeatureIntroViewController: TZConfettiIntroViewController
