@@ -18,29 +18,28 @@ class NewFeatureIntroViewController: TZConfettiIntroViewController
 In viewDidLoad() method, before super.viewDidLoad(). Create CIPageView as needed. You can use the default nib or create your own nib and pass it
 ```swift
 override func viewDidLoad() {
-let page0 = CIPageView()
-page0.headingLabel?.text = "FIRST PAGE"
-page0.bodyLabel?.text = "You can write anything here....\n New line also looks cool"
-page0.showNextButton = true
-page0.delayBeforeShowing = 2.0
+    let page0 = CIPageView()
+    page0.headingLabel?.text = "FIRST PAGE"
+    page0.bodyLabel?.text = "You can write anything here....\n New line also looks cool"
+    page0.showNextButton = true
+    page0.delayBeforeShowing = 2.0
 
+    let page1 = CIPageView()
+    page1.headingLabel?.text = "SECOND PAGE"
+    page1.showNextButton = true
+    page1.delayBeforeShowing = 2.0
 
-let page1 = CIPageView()
-page1.headingLabel?.text = "SECOND PAGE"
-page1.showNextButton = true
-page1.delayBeforeShowing = 2.0
+    let page2 = CIPageView(customNib: UINib.init(nibName: "CustomPageView", bundle: nil))
+    page2.headingLabel?.text = "THIRD PAGE"
+    page2.showNextButton = true
+    self.pages = [page0, page1, page2]
 
-let page2 = CIPageView(customNib: UINib.init(nibName: "CustomPageView", bundle: nil))
-page2.headingLabel?.text = "THIRD PAGE"
-page2.showNextButton = true
-self.pages = [page0, page1, page2]
+    super.viewDidLoad()
 
-super.viewDidLoad()
-
-self.scrollView.isScrollEnabled = false
-self.nextButton.backgroundColor = UIColor.init(red: 0.75, green: 0.65, blue: 0.32, alpha: 0.8)
-self.nextButton.tintColor = UIColor.white
-self.pageControl.isHidden = true
+    self.scrollView.isScrollEnabled = false
+    self.nextButton.backgroundColor = UIColor.init(red: 0.75, green: 0.65, blue: 0.32, alpha: 0.8)
+    self.nextButton.tintColor = UIColor.white
+    self.pageControl.isHidden = true
 
 }
 ```
